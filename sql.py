@@ -34,13 +34,13 @@ cursor.execute('''Insert Into STUDENT values('Ian','DEVOPS','A',63)''')
 cursor.execute('''Insert Into STUDENT values('Jenna','Cloud Computing','B',90)''')
 
 
-## Disspaly ALl the records
+## Display all the records
 
-print("The isnerted records are")
+print("The inserted records are")
 data=cursor.execute('''Select * from STUDENT''')
 for row in data:
     print(row)
 
-## Commit your changes int he databse
+## Commit your changes in the database
 connection.commit()
 connection.close()

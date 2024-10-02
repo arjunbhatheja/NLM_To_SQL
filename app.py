@@ -1,5 +1,5 @@
 from dotenv import load_dotenv
-load_dotenv() ## load all the environemnt variables
+load_dotenv() 
 
 import streamlit as st
 import os
@@ -17,7 +17,7 @@ def get_gemini_response(question,prompt):
     response=model.generate_content([prompt[0],question])
     return response.text
 
-## Fucntion To retrieve query from the database
+## Function To retrieve query from the database
 
 def read_sql_query(sql,db):
     conn=sqlite3.connect(db)
