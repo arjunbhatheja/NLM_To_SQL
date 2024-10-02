@@ -22,6 +22,17 @@ cursor.execute('''Insert Into STUDENT values('Sudhanshu','Data Science','B',100)
 cursor.execute('''Insert Into STUDENT values('Darius','Data Science','A',86)''')
 cursor.execute('''Insert Into STUDENT values('Vikash','DEVOPS','A',50)''')
 cursor.execute('''Insert Into STUDENT values('Dipesh','DEVOPS','A',35)''')
+cursor.execute('''Insert Into STUDENT values('Alice','Machine Learning','A',92)''')
+cursor.execute('''Insert Into STUDENT values('Bob','Data Science','B',78)''')
+cursor.execute('''Insert Into STUDENT values('Charlie','Cyber Security','A',85)''')
+cursor.execute('''Insert Into STUDENT values('David','DEVOPS','B',67)''')
+cursor.execute('''Insert Into STUDENT values('Eve','Cloud Computing','A',88)''')
+cursor.execute('''Insert Into STUDENT values('Fiona','Artificial Intelligence','B',95)''')
+cursor.execute('''Insert Into STUDENT values('George','Machine Learning','A',74)''')
+cursor.execute('''Insert Into STUDENT values('Hannah','Cyber Security','B',82)''')
+cursor.execute('''Insert Into STUDENT values('Ian','DEVOPS','A',63)''')
+cursor.execute('''Insert Into STUDENT values('Jenna','Cloud Computing','B',90)''')
+
 
 ## Disspaly ALl the records
 
